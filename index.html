@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tangen Torv Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    .menu-item, .booking-item {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    form input, form select, form button {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      width: 100%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tangen Torv Restaurant</h1>
+    <p>Velkommen til vår hjemmeside!</p>
+  </header>
+
+  <nav>
+    <a href="#info">Om Oss</a>
+    <a href="#meny">Meny</a>
+    <a href="#apningstider">Åpningstider</a>
+    <a href="#kontakt">Kontakt</a>
+    <a href="#bestill">Bestill Bord</a>
+  </nav>
+
+  <section id="info">
+    <h2>Om Oss</h2>
+    <p>Tangen Torv er en koselig restaurant som tilbyr hjemmelagde retter med lokale råvarer. Vi ønsker deg velkommen til en hyggelig matopplevelse.</p>
+  </section>
+
+  <section id="meny">
+    <h2>Meny</h2>
+    <div class="menu-item"><strong>Biff med tilbehør</strong> – 249 kr</div>
+    <div class="menu-item"><strong>Vegetar pasta</strong> – 179 kr</div>
+    <div class="menu-item"><strong>Pizza Margherita</strong> – 159 kr</div>
+    <div class="menu-item"><strong>Fiskesuppe</strong> – 149 kr</div>
+    <!-- Hardkodede data som senere hentes fra database i modul 3 -->
+  </section>
+
+  <section id="apningstider">
+    <h2>Åpningstider</h2>
+    <p>Mandag–Fredag: 11:00–22:00</p>
+    <p>Lørdag: 12:00–23:00</p>
+    <p>Søndag: Stengt</p>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt Oss</h2>
+    <p>Adresse: Tangen Torv, 1234 Krs</p>
+    <p>Telefon: +47 123 45 678</p>
+    <p>E-post: kontakt@tangentorv.no</p>
+  </section>
+
+  <section id="bestill">
+    <h2>Bestill Bord</h2>
+    <form>
+      <input type="text" placeholder="Navn" required />
+      <input type="email" placeholder="E-post" required />
+      <input type="number" placeholder="Antall personer" required />
+      <input type="datetime-local" required />
+      <button type="submit">Send bestilling</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Tangen Torv Restaurant</p>
+  </footer>
+</body>
+</html>
