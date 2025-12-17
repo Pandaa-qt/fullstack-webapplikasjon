@@ -32,6 +32,8 @@ CREATE TABLE Booking_action_log (
     action          VARCHAR(50) NOT NULL,
     timestamp       TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Select all rows from 'TableName'
 INSERT INTO Menu_item (category_id, name, price) VALUES
 (1, 'Biff med tilbehør', 249),
 (1, 'Vegetar pasta', 179),
@@ -47,3 +49,5 @@ INSERT INTO Menu_item (category_id, name, price) VALUES
 (6, 'Te', 20);
 (7, 'vann', 50),
 (7, 'Kake', 70);
+
+SELECT * FROM Menu_item;

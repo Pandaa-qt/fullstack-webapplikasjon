@@ -47,3 +47,15 @@ Emploee_id		Kem utførte handlinga
 Action		Bestild, ubestilt, opdatert
 timestamp		Tiden de blei gjørt
 
+03.12 – starter med oppgava, lage repositoryen, logge  
+Starta på oppgava og brukte tid på å finne ut av korleis oppgava skulle gjørast på grunn av at det var ein stor og vanskeleg oppgave. Lagde døme på tabellen.
+04.12 – jobbe med oppgava og lage nettside til databasen og koble nettsida og databasen. logge, eg har tenkt å lage nettsida og brukar alternativ 1 i oppgava og videre planlegge.  
+Starta på å lage nettsida men det tokk litt tid på grunn av at eg prøvde å gjøre den avansert. Brukte alternativ 1. 
+10.12 – fortsette med det frå sistgang. logge  
+Fortsetter med nettsida men den bare ville ikkje så da begynte eg å lage ein lettare å enkel nettside på grunn av at VS Code dreiv å crasha.
+11.12 – fortsette med det ein halde på med. logge  
+Eg lagde tabellen som skal vere i sql delen. Det took lang tid Å skrive det inn.
+17.12 – fagsamtale eller ferdig.  
+fagsamtale
+18.12 – fagsamtale eller ferdig. 
+	
